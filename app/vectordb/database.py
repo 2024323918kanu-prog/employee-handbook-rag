@@ -14,10 +14,12 @@ class VectorDatabase:
 
     def add_embeddings(self, embeddings):
 
-        for item in embeddings:
+        for idx, item in enumerate(embeddings):
+
+            chunk_id = f"page_{item['page']}_chunk_{idx}"
 
             self.collection.add(
-                ids=[str(uuid.uuid4())],
+                ids=[chunk_id],
                 embeddings=[item["embedding"].tolist()],
                 documents=[item["text"]],
                 metadatas=[

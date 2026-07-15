@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Semantic Only",
+    "retrieval_accuracy": 0.9428571428571428,
+    "precision_at_k": 0.24000000000000002,
+    "recall_at_k": 0.9,
+    "mrr": 0.8152380952380952,
+    "avg_latency_sec": 0.06072210571063416
+  },
+  {
+    "name": "Hybrid (Semantic + BM25)",
+    "retrieval_accuracy": 0.8857142857142857,
+    "precision_at_k": 0.22285714285714286,
+    "recall_at_k": 0.8285714285714286,
+    "mrr": 0.7928571428571428,
+    "avg_latency_sec": 0.751379659984793
+  },
+  {
+    "name": "Hybrid + CrossEncoder Rerank",
+    "retrieval_accuracy": 0.8857142857142857,
+    "precision_at_k": 0.2285714285714286,
+    "recall_at_k": 0.8428571428571429,
+    "mrr": 0.7833333333333333,
+    "avg_latency_sec": 0.6834915971050837
+  }
+]

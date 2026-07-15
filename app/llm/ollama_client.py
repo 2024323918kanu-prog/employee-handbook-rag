@@ -11,7 +11,7 @@ class OllamaClient:
     def generate(self, prompt):
 
        
-        raise Exception("OLLAMA CLIENT IS RUNNING")
+        
 
         start = time.perf_counter()
 
@@ -23,7 +23,7 @@ class OllamaClient:
                 "stream": False,
                 "options": {
                     "temperature": 0.2,
-                    "num_predict": 150
+                    "num_predict": 250
                 }
             }
         )

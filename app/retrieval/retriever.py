@@ -19,28 +19,20 @@ class Retriever:
 
         documents = results["documents"][0]
         metadatas = results["metadatas"][0]
-
-        # Chroma returns distances (smaller = better)
+        ids = results["ids"][0]
         distances = results["distances"][0]
 
         retrieved_chunks = []
-        seen_pages = set()
 
-        for doc, metadata, distance in zip(documents, metadatas, distances):
+        for doc, metadata, chunk_id, distance in zip(documents, metadatas, ids, distances):
 
-            if metadata["page"] not in seen_pages:
-
-                retrieved_chunks.append(
-                    {
-                        "text": doc,
-                        "page": metadata["page"],
-                        "semantic_score": round(1 - distance, 4)
-                    }
-                )
-
-                seen_pages.add(metadata["page"])
-
-            if len(retrieved_chunks) >= top_k:
-                break
+            retrieved_chunks.append(
+                {
+                    "chunk_id": chunk_id,
+                    "text": doc,
+                    "page": metadata["page"],
+                    "semantic_score": round(1 - distance, 4)
+                }
+            )
 
         return retrieved_chunks

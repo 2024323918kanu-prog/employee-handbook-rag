@@ -1,0 +1,212 @@
+[
+  {
+    "id": "q001",
+    "query": "How many days of paid time off do employees get per year?",
+    "category": "leave_policy",
+    "relevant_chunk_ids": ["page_27_chunk_112"]
+  },
+  {
+    "id": "q002",
+    "query": "Can I carry over unused PTO to the next year?",
+    "category": "leave_policy",
+    "relevant_chunk_ids": ["page_27_chunk_113"]
+  },
+  {
+    "id": "q003",
+    "query": "How many sick leave days am I entitled to?",
+    "category": "leave_policy",
+    "relevant_chunk_ids": ["page_28_chunk_117"]
+  },
+  {
+    "id": "q004",
+    "query": "Do I need a doctor's note to take sick leave?",
+    "category": "leave_policy",
+    "relevant_chunk_ids": ["page_28_chunk_119"]
+  },
+  {
+    "id": "q005",
+    "query": "How many days of bereavement leave are offered?",
+    "category": "leave_policy",
+    "relevant_chunk_ids": ["page_29_chunk_122"]
+  },
+  {
+    "id": "q006",
+    "query": "How much paid parental leave does the company offer?",
+    "category": "leave_policy",
+    "relevant_chunk_ids": ["page_30_chunk_127"]
+  },
+  {
+    "id": "q007",
+    "query": "How much time off can I take for jury duty?",
+    "category": "leave_policy",
+    "relevant_chunk_ids": ["page_29_chunk_123"]
+  },
+  {
+    "id": "q008",
+    "query": "What is considered workplace harassment?",
+    "category": "conduct_and_harassment",
+    "relevant_chunk_ids": ["page_8_chunk_26"]
+  },
+  {
+    "id": "q009",
+    "query": "Who should I talk to if I experience harassment at work?",
+    "category": "conduct_and_harassment",
+    "relevant_chunk_ids": ["page_8_chunk_28", "page_9_chunk_30"]
+  },
+  {
+    "id": "q010",
+    "query": "What happens if someone is found guilty of workplace violence?",
+    "category": "conduct_and_harassment",
+    "relevant_chunk_ids": ["page_9_chunk_32"]
+  },
+  {
+    "id": "q011",
+    "query": "What is the company's dress code policy?",
+    "category": "conduct_and_harassment",
+    "relevant_chunk_ids": ["page_12_chunk_48", "page_13_chunk_49"]
+  },
+  {
+    "id": "q012",
+    "query": "What counts as a conflict of interest?",
+    "category": "conduct_and_harassment",
+    "relevant_chunk_ids": ["page_16_chunk_61"]
+  },
+  {
+    "id": "q013",
+    "query": "Am I entitled to overtime pay?",
+    "category": "compensation_and_payroll",
+    "relevant_chunk_ids": ["page_19_chunk_79"]
+  },
+  {
+    "id": "q014",
+    "query": "How and when is my salary paid?",
+    "category": "compensation_and_payroll",
+    "relevant_chunk_ids": ["page_20_chunk_80"]
+  },
+  {
+    "id": "q015",
+    "query": "What's the difference between exempt and non-exempt employees?",
+    "category": "compensation_and_payroll",
+    "relevant_chunk_ids": ["page_19_chunk_76", "page_19_chunk_77"]
+  },
+  {
+    "id": "q016",
+    "query": "How often will my performance be reviewed?",
+    "category": "compensation_and_payroll",
+    "relevant_chunk_ids": ["page_20_chunk_82"]
+  },
+  {
+    "id": "q017",
+    "query": "What are the rules for using the internet at work?",
+    "category": "it_and_cybersecurity",
+    "relevant_chunk_ids": ["page_13_chunk_50", "page_13_chunk_51"]
+  },
+  {
+    "id": "q018",
+    "query": "Can I use my personal cell phone at work?",
+    "category": "it_and_cybersecurity",
+    "relevant_chunk_ids": ["page_13_chunk_52"]
+  },
+  {
+    "id": "q019",
+    "query": "Can I use my company email for personal reasons?",
+    "category": "it_and_cybersecurity",
+    "relevant_chunk_ids": ["page_14_chunk_54", "page_14_chunk_55"]
+  },
+  {
+    "id": "q020",
+    "query": "What are the social media guidelines for employees?",
+    "category": "it_and_cybersecurity",
+    "relevant_chunk_ids": ["page_15_chunk_57", "page_15_chunk_58"]
+  },
+  {
+    "id": "q021",
+    "query": "How should I keep my company-issued devices secure?",
+    "category": "it_and_cybersecurity",
+    "relevant_chunk_ids": ["page_26_chunk_109"]
+  },
+  {
+    "id": "q022",
+    "query": "What health benefits does the company provide?",
+    "category": "benefits_and_remote_work",
+    "relevant_chunk_ids": ["page_22_chunk_90"]
+  },
+  {
+    "id": "q023",
+    "query": "How many days per week can I work from home?",
+    "category": "benefits_and_remote_work",
+    "relevant_chunk_ids": ["page_23_chunk_95"]
+  },
+  {
+    "id": "q024",
+    "query": "Can I work remotely on a permanent basis?",
+    "category": "benefits_and_remote_work",
+    "relevant_chunk_ids": ["page_23_chunk_97", "page_23_chunk_98"]
+  },
+  {
+    "id": "q025",
+    "query": "What are the rules for driving a company car?",
+    "category": "benefits_and_remote_work",
+    "relevant_chunk_ids": ["page_24_chunk_101", "page_24_chunk_102"]
+  },
+  {
+    "id": "q026",
+    "query": "What happens if my company-issued equipment is stolen?",
+    "category": "benefits_and_remote_work",
+    "relevant_chunk_ids": ["page_26_chunk_108"]
+  },
+  {
+    "id": "q027",
+    "query": "What are the different types of employment contracts?",
+    "category": "employment_basics",
+    "relevant_chunk_ids": ["page_3_chunk_6", "page_3_chunk_7"]
+  },
+  {
+    "id": "q028",
+    "query": "How does the company handle background checks on candidates?",
+    "category": "employment_basics",
+    "relevant_chunk_ids": ["page_6_chunk_18"]
+  },
+  {
+    "id": "q029",
+    "query": "How much is the employee referral bonus?",
+    "category": "employment_basics",
+    "relevant_chunk_ids": ["page_5_chunk_15", "page_5_chunk_16"]
+  },
+  {
+    "id": "q030",
+    "query": "What is the company's equal opportunity employment policy?",
+    "category": "employment_basics",
+    "relevant_chunk_ids": ["page_4_chunk_8"]
+  },
+  {
+    "id": "q031",
+    "query": "What are the steps in the progressive discipline process?",
+    "category": "termination_and_discipline",
+    "relevant_chunk_ids": ["page_31_chunk_130", "page_31_chunk_131"]
+  },
+  {
+    "id": "q032",
+    "query": "How much notice do I need to give if I resign?",
+    "category": "termination_and_discipline",
+    "relevant_chunk_ids": ["page_32_chunk_135"]
+  },
+  {
+    "id": "q033",
+    "query": "What's the difference between for-cause and without-cause termination?",
+    "category": "termination_and_discipline",
+    "relevant_chunk_ids": ["page_33_chunk_139"]
+  },
+  {
+    "id": "q034",
+    "query": "Can I get a reference after I leave the company?",
+    "category": "termination_and_discipline",
+    "relevant_chunk_ids": ["page_33_chunk_142"]
+  },
+  {
+    "id": "q035",
+    "query": "What is the company's smoking policy?",
+    "category": "workplace_safety",
+    "relevant_chunk_ids": ["page_11_chunk_40", "page_11_chunk_41"]
+  }
+]

@@ -35,7 +35,7 @@ class HybridRetriever:
 
         self.keyword = KeywordSearch()
         self.keyword.build_index(chunks)
-
+        self.bm25_reference_score = self.keyword.compute_reference_score()
         self.reranker = Reranker()
 
     def search(self, query, top_k=3):
@@ -63,20 +63,12 @@ class HybridRetriever:
         # ----------------------------
         if keyword_results:
 
-            max_score = max(
-                chunk["bm25_score"]
-                for chunk in keyword_results
-            )
-
-            if max_score == 0:
-                max_score = 1
 
             for chunk in keyword_results:
 
                 key = (chunk["page"], chunk["text"])
 
-                normalized = chunk["bm25_score"] / max_score
-
+                normalized = min(chunk["bm25_score"] / self.bm25_reference_score, 1.0)
                 if key not in fused:
 
                     fused[key] = {
